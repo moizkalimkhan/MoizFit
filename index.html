@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Welcome to MoizFit</title>
+		<!-- Design CSS -->
+
+		<link rel="stylesheet" href="CSS/style.css" />
+		<link rel="stylesheet" href="CSS/header.css" />
+		<link rel="stylesheet" href="CSS/footer.css" />
+		<link rel="stylesheet" href="CSS/mediaQueries.css" />
+		<link rel="stylesheet" href="CSS/indexMain.css" />
+
+		<script defer src="JAVASCRIPT/navbar.js"></script>
+		<script defer src="JAVASCRIPT/scroll.js"></script>
+
+		<link rel="shortcut icon" href="IMAGES/MoizFitLogo.jpg" type="image/x-icon" />
+	</head>
+
+	<body id="top">
+		<header id="navBar">
+			<!-- Kod för normal stora menyn -->
+			<div class="navigation" id="navigation">
+				<nav class="navigationLinks" id="navigationLinks">
+					<ul>
+						<li><a href="#" class="hoverLine">Exercise</a></li>
+						<li><a href="#" class="hoverLine">Reserve</a></li>
+						<div class="logo">
+							<li><a href="#top">MoizFit</a></li>
+						</div>
+						<li><a href="#" class="hoverLine">Prices</a></li>
+						<li><a href="#" class="hoverLine">Member</a></li>
+					</ul>
+				</nav>
+
+				<!-- Kod hamburgar menyn och logo när skärmen blir mindre än 768px  -->
+				<div class="screenLogo-NavButton" id="screenLogo-NavButton">
+					<div class="screenLogo">
+						<ul>
+							<li><a href="#top">MoizFit</a></li>
+						</ul>
+					</div>
+					<div class="navButton" id="navButton" onclick="openNavbar()">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+
+				<!-- Kod för innehållet i hamburgar menyn -->
+				<div class="hamburgerNav" id="hamburgerNavbarLinks">
+					<div class="closeButton" id="closeButton" onclick="closeNavbar()">&#10006;</div>
+
+					<div class="hamburgerNavContent">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<hr />
+							<li><a href="#">Exercise</a></li>
+							<hr />
+							<li><a href="#">Reserve</a></li>
+							<hr />
+							<li><a href="#">Prices</a></li>
+							<hr />
+							<li><a href="#">Member</a></li>
+							<hr />
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<div class="heroImg">
+				<div class="heroImgText">
+					<div class="heroQuote">
+						<h1>
+							Some people want it to happen, some wish it would happen, others make it happen
+						</h1>
+					</div>
+					<div class="heroJoinText">
+						<p>Become a member today</p>
+					</div>
+					<div class="heroButtonJoin">
+						<ul>
+							<li><a class="heroButton" href="#">Member</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="numberShow">
+				<div class="numberShowContainer">
+					<div class="numberShow">
+						<p class="numberShowNumber">24/7</p>
+						<p class="numberShowText">Open</p>
+					</div>
+
+					<div class="numberShow">
+						<p class="numberShowNumber">104</p>
+						<p class="numberShowText">Locations</p>
+					</div>
+
+					<div class="numberShow">
+						<p class="numberShowNumber">145 466</p>
+						<p class="numberShowText">Members</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="webbContainer">
+				<div class="webbContent">
+					<figure class="figureContent">
+						<img src="IMAGES/PersonalTrainer.jpg" alt="Image" />
+						<figcaption>Personal Trainer</figcaption>
+					</figure>
+				</div>
+
+				<div class="webbContent">
+					<figure class="figureContent">
+						<img src="IMAGES/TipsMotivation.jpg" alt="Image" />
+						<figcaption>Tips & Motivation</figcaption>
+					</figure>
+				</div>
+
+				<div class="webbContent">
+					<figure class="figureContent">
+						<img src="IMAGES/TheProffesionals.jpg" alt="Image" />
+						<figcaption>The Proffesionals</figcaption>
+					</figure>
+				</div>
+
+				<div class="webbContent">
+					<figure class="figureContent">
+						<img src="IMAGES/Healthy.jpg" alt="Image" />
+						<figcaption>Healthy</figcaption>
+					</figure>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="footerContent">
+				<div class="footerLeft">
+					<span class="footerLogo"><a href="index.html">MoizFit</a></span>
+					<p>&copy; 2022 K-Industries</p>
+				</div>
+
+				<div class="footerRight">
+					<ul>
+						<li><a class="hoverLine" href="#">Terms & Conditions</a></li>
+						<li><a class="hoverLine" href="#">Cookies Policy</a></li>
+						<li><a class="hoverLine" href="#">Privacy Policy</a></li>
+						<li><a class="hoverLine" href="#">Contact</a></li>
+						<li><a class="hoverLine" href="#">About</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

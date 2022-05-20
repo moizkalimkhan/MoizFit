@@ -1,0 +1,94 @@
+@media screen and (max-width: 769px) {
+	header {
+		padding: 0;
+	}
+
+	.navButton span {
+		display: flex;
+
+		width: 20px;
+		height: 2px;
+	}
+
+	.screenLogo a {
+		display: flex;
+	}
+
+	.navigationLinks {
+		display: none;
+	}
+
+	.hamburgerNav {
+		border-left: #61a2a9 solid 1px;
+	}
+
+	.screenLogo-NavButton {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.heroImg {
+		padding: 4.7em 5rem !important;
+	}
+
+	.heroImg h1 {
+		width: 90% !important;
+	}
+	
+	.figureContent img {
+	width: 300px !important;  
+	height: auto;
+	} 
+
+	.footerContent {
+		flex-direction: column;
+		padding: 15px 20px;
+	}
+
+	.footerLeft p {
+		margin: 8px 0;
+	}
+
+	.footerRight {
+		flex-direction: column;
+	}
+
+	.footerRight ul {
+		padding: 0;
+	}
+
+	.footerRight ul {
+		margin: 0;
+	}
+
+}
+
+@media screen and (max-width: 482px) and (min-width: 427px){
+	.heroImg {
+		font-size: 28px !important;
+		padding: 5.8em 2rem !important;
+
+	}
+
+	.heroImg h1 {
+		width: 100% !important;
+	}
+
+	.footerRight {
+		flex-direction: column;
+	}
+}
+
+	
+@media screen and (max-width: 426px)  {
+	.heroImg {
+		font-size: 26px !important;
+		padding: 4.8em 2rem !important;
+	}
+
+	.heroImg h1 {
+		width: 100% !important;
+	}
+}
+

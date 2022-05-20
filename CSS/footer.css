@@ -1,0 +1,58 @@
+footer {
+	background-color: black;
+	position: relative;
+	color: white;
+	width: 100%;
+	transition: 500ms;
+	bottom: 0;
+}
+
+.footerLogo {
+	cursor: pointer;
+	padding: 12px;
+	font-size: 20px;
+	font-family: "Chopsic" !important;
+}
+
+.footerLeft p {
+	user-select: none;
+}
+
+.footerContent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	padding: 6px 20px;
+	color: white;
+}
+
+.footerContent li {
+	list-style: none;
+}
+
+.footerContent a {
+	color: white;
+	text-decoration: none;
+	transition: 300ms;
+	
+}
+
+.footerLeft {
+	display: flex;
+	align-items: center;
+}
+
+.footerRight {
+	display: flex;
+	align-items: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+}
+
+.footerRight ul li {
+	display: inline-block;
+	margin: 0 6px;
+}

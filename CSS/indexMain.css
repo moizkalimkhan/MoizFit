@@ -1,0 +1,95 @@
+.heroImg {
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url("../IMAGES/Wheeelie.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.heroImg {
+	color: white;
+	font-size: 20px;
+	padding: 10em 7rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heroImg h1 {
+	font-size: 2em;
+	width: 60%;
+}
+
+.heroImg li {
+	list-style: none;
+	padding: 0;
+}
+
+.heroJoinText {
+	padding: 5px 0;
+}
+
+.heroButton {
+	border: 2px solid white;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+.heroButtonJoin {
+	padding: 20px 0;
+}
+
+.heroMemberButton a {
+	margin: 20px;
+}
+
+.numberShowContainer {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 20px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	user-select: none;
+}
+
+.numberShowNumber {
+	font-size: 5rem;
+}
+
+.webbContainer {
+	margin: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	text-align: center;
+	transition: 500ms;
+}
+
+.webbContent {
+	background-color: black;
+	margin: 20px;
+	cursor: pointer;
+}
+
+.figureContent img {
+	width: 500px ; 
+	height: auto;
+	border-bottom: solid 3px #61a2a9 ;
+} 
+
+figcaption {
+	text-align: left;
+	color: white;
+	padding: 0;
+	background-color: black;
+	padding: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: larger;
+	transition: 500ms;
+}
